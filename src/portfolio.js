@@ -20,10 +20,10 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Haseebh",
+  title: "Hi all, I'm Haseeb",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A  Passionate Backend and DevOps Engineer with expertise in building scalable microservices architecture using Golang, implementing cloud-native solutions, orchestrating containerized applications with Kubernetes, and integrating AI solutions while maintaining robust CI/CD pipelines for seamless software delivery."
   ),
   resumeLink:
     "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
@@ -33,13 +33,13 @@ const greeting = {
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/haseebh",
+  linkedin: "https://www.linkedin.com/in/haseeb-humayun-a098a6108/",
+  gmail: "haseeb.h002@gmail.com",
+  // gitlab: "https://gitlab.com/saadpasta",
+  // facebook: "https://www.facebook.com/saad.pasta7",
+  // medium: "https://medium.com/@saadpasta",
+  // stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,15 +49,17 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "FEARLESS CODE WARRIOR: TURNING IMPOSSIBLE INTO INEVITABLE 🔥  ",
   skills: [
-    emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
-    ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
-    emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
-    )
+    emoji("⚡ Specialized in microservices architecture, ensuring your applications are modular, maintainable, and resilient."),
+    emoji("⚡ Eliminate system bottlenecks with efficient database design and caching strategies"),
+    emoji("⚡ Build reliable, self-healing services that ensure 99.9% uptime"),
+    emoji("⚡ Future-proof your systems with easy-to-scale microservices and cloud-native patterns"),
+    emoji("⚡ Design and implement scalable CI/CD pipelines with advanced monitoring and observability"),
+    emoji("⚡ Scale applications seamlessly from 100 to 1M+ users with cloud-native architecture"),
+    emoji("⚡ Automate repetitive tasks and enhance decision-making with strategic AI/ML integration"),
+    emoji("⚡ Containerization and orchestration using Docker and Kubernetes for seamless deployment"),
+    emoji("⚡ Infrastructure as Code (IaC) implementation with Terraform and configuration management"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -65,16 +67,16 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "Golang",
+      fontAwesomeClassname: "fab fa-golang"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Python",
+      fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Databases",
+      fontAwesomeClassname: "fab fa-database"
     },
     {
       skillName: "JavaScript",
@@ -89,6 +91,18 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-node"
     },
     {
+      skillName: "aws",
+      fontAwesomeClassname: "fab fa-aws"
+    },
+    {
+      skillName: "azure",
+      fontAwesomeClassname: "fab fa-gcp"
+    },
+    {
+      skillName: "gcp",
+      fontAwesomeClassname: "fab fa-gcp"
+    },
+    {
       skillName: "swift",
       fontAwesomeClassname: "fab fa-swift"
     },
@@ -100,10 +114,7 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "sql-database",
       fontAwesomeClassname: "fas fa-database"
     },
-    {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
-    },
+
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
@@ -115,15 +126,19 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
-    }
+    },
+    {
+      skillName: "docker",
+      fontAwesomeClassname: "fab fa-kubernetes"
+    },
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Education Section
 
 const educationInfo = {
-  display: true, // Set false to hide this section, defaults to true
+  display: false, // Set false to hide this section, defaults to true
   schools: [
     {
       schoolName: "Harvard University",
@@ -151,18 +166,70 @@ const educationInfo = {
 
 const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
+  // experience: [
+  //   {
+  //     Stack: "Frontend/Design", //Insert stack or technology you have experience in
+  //     progressPercentage: "90%" //Insert relative proficiency in percentage
+  //   },
+  //   {
+  //     Stack: "Backend",
+  //     progressPercentage: "70%"
+  //   },
+  //   {
+  //     Stack: "Programming",
+  //     progressPercentage: "60%"
+  //   }
+  // ],
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "Backend Development",
+      progressPercentage: "95%",
+      expertise: ["RESTful APIs", "gRPC", "Fiber", "Gin", "Echo", "Clean Architecture"]
     },
     {
-      Stack: "Backend",
-      progressPercentage: "70%"
+      Stack: "DevOps",
+      progressPercentage: "90%",
+      expertise: ["AWS", "GCP", "Azure", "Terraform", "Ansible", "CloudFormation"]
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Cloud",
+      progressPercentage: "90%",
+      expertise: ["AWS", "GCP", "Azure", "Terraform", "Ansible", "CloudFormation"]
+    },
+    {
+      Stack: "Microservices",
+      progressPercentage: "85%",
+      expertise: ["Domain-Driven Design", "Event Sourcing", "CQRS", "Service Mesh", "API Gateway"]
+    },
+    {
+      Stack: "Containerization",
+      progressPercentage: "80%",
+      expertise: ["Docker", "Kubernetes", "Helm", "Harbor", "Podman", "Container Security"]
+    },
+    {
+      Stack: "CI/CD",
+      progressPercentage: "85%",
+      expertise: ["Jenkins", "GitLab CI", "GitHub Actions", "ArgoCD", "FluxCD", "Tekton"]
+    },
+    {
+      Stack: "Database",
+      progressPercentage: "88%",
+      expertise: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Cassandra", "TimescaleDB"]
+    },
+    {
+      Stack: "Testing",
+      progressPercentage: "85%",
+      expertise: ["Unit Testing", "Integration Testing", "E2E Testing", "Load Testing", "TestContainers"]
+    },
+    {
+      Stack: "Monitoring & Logging",
+      progressPercentage: "82%",
+      expertise: ["Prometheus", "Grafana", "ELK Stack", "Jaeger", "NewRelic", "Datadog"]
+    },
+    {
+      Stack: "AI/ML ",
+      progressPercentage: "50%",
+      expertise: ["TensorFlow", "OpenAI API", "ML Pipelines", "Model Deployment", "ML Ops"]
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,30 +241,56 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Senior Cloud Infra Engineer",
+      company: "Turing",
+      companylogo: require("./assets/images/toptal_logo.png"),
+      date: "May 2024 – Present",
+      desc: "Experienced cloud infrastructure engineer specializing in DevOps practices, security, and automation. Expert in AWS services, Kubernetes, and infrastructure-as-code, focusing on scalable and compliant architectures that optimize performance and costs.",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Maintained and managed AWS cloud resources to ensure high availability and performance using IaC",
+        "Established comprehensive monitoring solutions using AWS CloudWatch and Datadog, reducing MTTR by 65% through predictive alerting and automated incident response",
+        "Implemented Database replication system with automated data masking for sensitive PII data in non-production environments."
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Engineering Lead",
+      company: "Microsec",
+      companylogo: require("./assets/images/microsec_ai.jpeg"),
+      date: "Aug 2022 – Present",
+      desc: " I joined the company's founder as a co-founding engineer at an early stage to design and implement secure, scalable software solutions. I lead a team of developers and collaborate with cross-functional teams to ensure the successful delivery of projects. I developed a Generative AI solution to provide security-based responses to clients",
+      descBullets: [
+        "Develop and maintain the overall architecture of the software system, ensuring scalability, reliability, and performance.",
+        "Evaluate and select appropriate technologies and frameworks for development, considering factors such as functionality, performance, and security",
+        "Design and implement cloud-native solutions using technologies such as Kubernetes, Docker, and service mesh."
+      ]
     },
     {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
+      role: "Engineering Lead",
+      company: "Brainarator",
+      companylogo: require("./assets/images/brainarator_logo.jpeg"),
+      // date: "Jan 2015 – Sep 2015",
+      desc: " I architected a microservices platform using Golang and MongoDB, implementing containerized Linux environments with Docker. Built real-time CLI functionality using WebSocket and gRPC. Implemented scaling solution to support 10,000+ concurrent users with 99.9% uptime, while implementing security controls and monitoring solutions."
+    },
+    {
+      role: "Senior Software Engineer",
+      company: "CloudPlex",
+      companylogo: require("./assets/images/cloudplex-logo.png"),
+      date: "Jan 2018 – Jul 2022",
+      desc: "I have contributed to the development and deployment of cloud-based software solutions. Designed and implemented scalable and reliable systems using microservices architecture and containerization technologies.",
+      descBullets: [
+        "Designed and developed microservices-based applications, enabling scalability, flexibility, and ease of maintenance.",
+        "Utilized Docker, Kubernetes, and Istio to containerize and orchestrate applications, ensuring efficient deployment and scalability.",
+        "Implemented CI/CD pipelines using tools like Jenkins, Git, and Docker, enabling automated builds, testing, and deployments.",
+        "Implemented security measures and best practices to protect applications and data. Ensured compliance with industry standards and regulations."
+      ]
+    },
+    {
+      role: "Software Engineer",
+      company: "Platalytics",
+      companylogo: require("./assets/images/cloudplex-logo.png"),
+      date: "Jan 2015 – Jan 2018",
+      desc: "I implemented infrastructure automation using Chef and Ansible for Hadoop/Spark clusters. Built Docker containerization for Scala backend and automated ML model deployment. Implemented IoT Features in the platform"
+    },
   ]
 };
 
@@ -206,7 +299,7 @@ To know how to get github key look at readme.md */
 
 const openSource = {
   showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Some big projects you have worked on
@@ -239,7 +332,7 @@ const bigProjects = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
@@ -300,7 +393,7 @@ const achievementSection = {
       ]
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Blogs Section
@@ -324,7 +417,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -343,7 +436,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -356,7 +449,7 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Resume Section
@@ -365,7 +458,7 @@ const resumeSection = {
   subtitle: "Feel free to download my resume",
 
   // Please Provide with Your Podcast embeded Link
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
@@ -373,14 +466,14 @@ const contactInfo = {
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
   number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  email_address: "haseeb.h002@gmail.com"
 };
 
 // Twitter Section
 
 const twitterDetails = {
   userName: "twitter", //Replace "twitter" with your twitter username without @
-  display: true // Set true to display this section, defaults to false
+  display: false // Set true to display this section, defaults to false
 };
 
 const isHireable = false; // Set false if you are not looking for a job. Also isHireable will be display as Open for opportunities: Yes/No in the GitHub footer
