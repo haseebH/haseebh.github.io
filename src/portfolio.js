@@ -103,10 +103,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-gcp"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
-    },
-    {
       skillName: "npm",
       fontAwesomeClassname: "fab fa-npm"
     },
