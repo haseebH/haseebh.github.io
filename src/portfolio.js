@@ -79,18 +79,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-database"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
-    },
-    {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
-    },
-    {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
-    },
-    {
       skillName: "aws",
       fontAwesomeClassname: "fab fa-aws"
     },
@@ -103,23 +91,6 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-gcp"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
-    },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
-
-    {
-      skillName: "firebase",
-      fontAwesomeClassname: "fas fa-fire"
-    },
-    {
-      skillName: "python",
-      fontAwesomeClassname: "fab fa-python"
-    },
-    {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
@@ -127,8 +98,32 @@ https://fontawesome.com/icons?d=gallery */
       skillName: "docker",
       fontAwesomeClassname: "fab fa-kubernetes"
     },
+    {
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
+    },
+    {
+      skillName: "JavaScript",
+      fontAwesomeClassname: "fab fa-js"
+    },
+    {
+      skillName: "reactjs",
+      fontAwesomeClassname: "fab fa-react"
+    },
+    {
+      skillName: "nodejs",
+      fontAwesomeClassname: "fab fa-node"
+    },
+    {
+      skillName: "npm",
+      fontAwesomeClassname: "fab fa-npm"
+    },
+    {
+      skillName: "firebase",
+      fontAwesomeClassname: "fas fa-fire"
+    },
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Education Section
@@ -179,54 +174,92 @@ const techStack = {
   experience: [
     {
       Stack: "Backend Development",
-      progressPercentage: "95%",
-      expertise: ["RESTful APIs", "gRPC", "Fiber", "Gin", "Echo", "Clean Architecture"]
+      progressPercentage: "85%"
     },
     {
-      Stack: "DevOps",
-      progressPercentage: "90%",
-      expertise: ["AWS", "GCP", "Azure", "Terraform", "Ansible", "CloudFormation"]
-    },
-    {
-      Stack: "Cloud",
-      progressPercentage: "90%",
-      expertise: ["AWS", "GCP", "Azure", "Terraform", "Ansible", "CloudFormation"]
+      Stack: "System Design & Architecture",
+      progressPercentage: "82%"
     },
     {
       Stack: "Microservices",
-      progressPercentage: "85%",
-      expertise: ["Domain-Driven Design", "Event Sourcing", "CQRS", "Service Mesh", "API Gateway"]
+      progressPercentage: "80%"
     },
     {
-      Stack: "Containerization",
-      progressPercentage: "80%",
-      expertise: ["Docker", "Kubernetes", "Helm", "Harbor", "Podman", "Container Security"]
+      Stack: "DevOps Practices",
+      progressPercentage: "85%"
     },
     {
-      Stack: "CI/CD",
-      progressPercentage: "85%",
-      expertise: ["Jenkins", "GitLab CI", "GitHub Actions", "ArgoCD", "FluxCD", "Tekton"]
+      Stack: "Cloud Platforms",
+      progressPercentage: "82%"
     },
     {
-      Stack: "Database",
-      progressPercentage: "88%",
-      expertise: ["PostgreSQL", "MongoDB", "Redis", "Elasticsearch", "Cassandra", "TimescaleDB"]
+      Stack: "Serverless Architecture",
+      progressPercentage: "75%"
     },
     {
-      Stack: "Testing",
-      progressPercentage: "85%",
-      expertise: ["Unit Testing", "Integration Testing", "E2E Testing", "Load Testing", "TestContainers"]
+      Stack: "Technical Leadership",
+      progressPercentage: "80%"
     },
     {
-      Stack: "Monitoring & Logging",
-      progressPercentage: "82%",
-      expertise: ["Prometheus", "Grafana", "ELK Stack", "Jaeger", "NewRelic", "Datadog"]
+      Stack: "Solution Architecture",
+      progressPercentage: "78%"
     },
     {
-      Stack: "AI/ML ",
-      progressPercentage: "50%",
-      expertise: ["TensorFlow", "OpenAI API", "ML Pipelines", "Model Deployment", "ML Ops"]
-    }
+      Stack: "Infrastructure as Code",
+      progressPercentage: "82%"
+    },
+    {
+      Stack: "Containerization & Orchestration",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "CI/CD & Automation",
+      progressPercentage: "85%"
+    },
+    {
+      Stack: "Prompt Engineering",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "LLM Integration",
+      progressPercentage: "65%"
+    },
+    {
+      Stack: "AI/ML Integration",
+      progressPercentage: "50%"
+    },
+    {
+      Stack: "Vector Databases",
+      progressPercentage: "60%"
+    },
+    {
+      Stack: "Database Design & Management",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Cache & Message Queues",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Testing & Quality Assurance",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Monitoring & Observability",
+      progressPercentage: "78%"
+    },
+    {
+      Stack: "Performance Optimization",
+      progressPercentage: "78%"
+    },
+    {
+      Stack: "Security Best Practices",
+      progressPercentage: "75%"
+    },
+    {
+      Stack: "Compliance & Governance",
+      progressPercentage: "72%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -239,52 +272,65 @@ const workExperiences = {
     {
       role: "Senior Cloud Infra Engineer",
       company: "Turing",
-      companylogo: require("./assets/images/toptal_logo.png"),
-      date: "May 2024 – Present",
-      desc: "Experienced cloud infrastructure engineer specializing in DevOps practices, security, and automation. Expert in AWS services, Kubernetes, and infrastructure-as-code, focusing on scalable and compliant architectures that optimize performance and costs.",
-      descBullets: [
-        "Maintained and managed AWS cloud resources to ensure high availability and performance using IaC",
-        "Established comprehensive monitoring solutions using AWS CloudWatch and Datadog, reducing MTTR by 65% through predictive alerting and automated incident response",
-        "Implemented Database replication system with automated data masking for sensitive PII data in non-production environments."
-      ]
+      companylogo: require("./assets/images/turingcom_logo.jpeg"),
+      // date: "May 2024 – Present",
+      desc: "Led AWS infrastructure optimization through IaC implementation, enhanced monitoring with CloudWatch and Datadog, and architected secure database replication systems, resulting in 65% faster incident resolution and robust PII data protection.",
+      // descBullets: [
+      //   "Maintained and managed AWS cloud resources to ensure high availability and performance using IaC",
+      //   "Established comprehensive monitoring solutions using AWS CloudWatch and Datadog, reducing MTTR by 65% through predictive alerting and automated incident response",
+      //   "Implemented Database replication system with automated data masking for sensitive PII data in non-production environments."
+      // ]
     },
     {
       role: "Engineering Lead",
       company: "Microsec",
       companylogo: require("./assets/images/microsec_ai.jpeg"),
-      date: "Aug 2022 – Present",
-      desc: " I joined the company's founder as a co-founding engineer at an early stage to design and implement secure, scalable software solutions. I lead a team of developers and collaborate with cross-functional teams to ensure the successful delivery of projects. I developed a Generative AI solution to provide security-based responses to clients",
-      descBullets: [
-        "Develop and maintain the overall architecture of the software system, ensuring scalability, reliability, and performance.",
-        "Evaluate and select appropriate technologies and frameworks for development, considering factors such as functionality, performance, and security",
-        "Design and implement cloud-native solutions using technologies such as Kubernetes, Docker, and service mesh."
-      ]
+      // date: "Aug 2022 – Present",
+      // desc: "I joined the company's founder as a co-founding engineer at an early stage to design and implement secure, scalable software solutions. I lead a team of developers and collaborate with cross-functional teams to ensure the successful delivery of projects. I developed a Generative AI solution to provide security-based responses to clients",
+      desc: "As a co-founding engineer, I designed and built core products while leading technical teams. I created AI security solutions for customers and worked across teams to deliver successful projects, helping grow the startup from its early stages."
+      // descBullets: [
+      //   "Develop and maintain the overall architecture of the software system, ensuring scalability, reliability, and performance.",
+      //   "Evaluate and select appropriate technologies and frameworks for development, considering factors such as functionality, performance, and security",
+      //   "Design and implement cloud-native solutions using technologies such as Kubernetes, Docker, and service mesh."
+      // ]
     },
     {
       role: "Engineering Lead",
       company: "Brainarator",
       companylogo: require("./assets/images/brainarator_logo.jpeg"),
       // date: "Jan 2015 – Sep 2015",
-      desc: " I architected a microservices platform using Golang and MongoDB, implementing containerized Linux environments with Docker. Built real-time CLI functionality using WebSocket and gRPC. Implemented scaling solution to support 10,000+ concurrent users with 99.9% uptime, while implementing security controls and monitoring solutions."
+      desc: "Led development teams in architecting high-performance microservices platform using Golang and MongoDB with Docker containerization. Drove end-to-end release management while implementing real-time CLI features, scaling to support 10K+ concurrent users with 99.9% uptime and robust security."
+    },
+    {
+      role: "Senior Backend Engineer",
+      company: "Toptal",
+      companylogo: require("./assets/images/toptal_logo.png"),
+      // date: "May 2024 – Present",
+      desc: "Worked on crypto payment solution enabling retail transactions with cryptocurrency. Added polygon implementation with openzeppelin and real-time transaction processing for merchant point-of-sale systems.",
+      // descBullets: [
+      //   "Maintained and managed AWS cloud resources to ensure high availability and performance using IaC",
+      //   "Established comprehensive monitoring solutions using AWS CloudWatch and Datadog, reducing MTTR by 65% through predictive alerting and automated incident response",
+      //   "Implemented Database replication system with automated data masking for sensitive PII data in non-production environments."
+      // ]
     },
     {
       role: "Senior Software Engineer",
       company: "CloudPlex",
       companylogo: require("./assets/images/cloudplex-logo.png"),
-      date: "Jan 2018 – Jul 2022",
-      desc: "I have contributed to the development and deployment of cloud-based software solutions. Designed and implemented scalable and reliable systems using microservices architecture and containerization technologies.",
-      descBullets: [
-        "Designed and developed microservices-based applications, enabling scalability, flexibility, and ease of maintenance.",
-        "Utilized Docker, Kubernetes, and Istio to containerize and orchestrate applications, ensuring efficient deployment and scalability.",
-        "Implemented CI/CD pipelines using tools like Jenkins, Git, and Docker, enabling automated builds, testing, and deployments.",
-        "Implemented security measures and best practices to protect applications and data. Ensured compliance with industry standards and regulations."
-      ]
+      // date: "Jan 2018 – Jul 2022",
+      desc: "I have contributed to the development and deployment of cloud-based software solutions. Designed and implemented scalable and reliable systems using microservices architecture and containerization technologies."
+      // descBullets: [
+      //   "Designed and developed microservices-based applications, enabling scalability, flexibility, and ease of maintenance.",
+      //   "Utilized Docker, Kubernetes, and Istio to containerize and orchestrate applications, ensuring efficient deployment and scalability.",
+      //   "Implemented CI/CD pipelines using tools like Jenkins, Git, and Docker, enabling automated builds, testing, and deployments.",
+      //   "Implemented security measures and best practices to protect applications and data. Ensured compliance with industry standards and regulations."
+      // ]
     },
     {
       role: "Software Engineer",
       company: "Platalytics",
-      companylogo: require("./assets/images/cloudplex-logo.png"),
-      date: "Jan 2015 – Jan 2018",
+      companylogo: require("./assets/images/platalytics.jpeg"),
+      // date: "Jan 2015 – Jan 2018",
       desc: "I implemented infrastructure automation using Chef and Ansible for Hadoop/Spark clusters. Built Docker containerization for Scala backend and automated ML model deployment. Implemented IoT Features in the platform"
     },
   ]
@@ -461,7 +507,7 @@ const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
+  // number: "+92-0000000000",
   email_address: "haseeb.h002@gmail.com"
 };
 
