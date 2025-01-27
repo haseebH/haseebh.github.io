@@ -26,7 +26,7 @@ const greeting = {
     "A  Passionate Backend and DevOps Engineer with expertise in building scalable microservices architecture using Golang, implementing cloud-native solutions, orchestrating containerized applications with Kubernetes, and integrating AI solutions while maintaining robust CI/CD pipelines for seamless software delivery."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -68,15 +68,15 @@ https://fontawesome.com/icons?d=gallery */
   softwareSkills: [
     {
       skillName: "Golang",
-      fontAwesomeClassname: "fab fa-golang"
+      fontAwesomeClassname: "fab fa-golang custom"
     },
     {
       skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "Databases",
-      fontAwesomeClassname: "fab fa-database"
+      skillName: "sql-database",
+      fontAwesomeClassname: "fas fa-database"
     },
     {
       skillName: "aws",
@@ -84,24 +84,21 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "azure",
-      fontAwesomeClassname: "fab fa-gcp"
+      fontAwesomeClassname: "fab fa-azure custom"
     },
     {
       skillName: "gcp",
-      fontAwesomeClassname: "fab fa-gcp"
+      fontAwesomeClassname: "fab fa-gcp custom"
     },
     {
       skillName: "docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-kubernetes"
+      skillName: "kubernetes",
+      fontAwesomeClassname: "fab fa-kubernetes custom"
     },
-    {
-      skillName: "sql-database",
-      fontAwesomeClassname: "fas fa-database"
-    },
+
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
@@ -304,7 +301,7 @@ const workExperiences = {
     {
       role: "Senior Backend Engineer",
       company: "Toptal",
-      companylogo: require("./assets/images/toptal_logo.png"),
+      companylogo: require("./assets/images/toptal.com.jpg"),
       // date: "May 2024 – Present",
       desc: "Worked on crypto payment solution enabling retail transactions with cryptocurrency. Added polygon implementation with openzeppelin and real-time transaction processing for merchant point-of-sale systems.",
       // descBullets: [

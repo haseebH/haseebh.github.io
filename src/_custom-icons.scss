@@ -1,0 +1,101 @@
+// _custom-icons.scss
+
+// Global color variables - adjust these to match your theme
+$icon-color: #868e96;  // Default grey
+$icon-hover-color: #8c43ce;  // Using CSS variable for global theme color
+
+// Function to create filter for grey color
+@function create-grey-filter() {
+  @return grayscale(97%);  // Simplified grey filter
+}
+
+// Base icon class
+%fa-base {
+  display: inline-block;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  vertical-align: -0.125em;
+  width: 1em;
+  height: 1em;
+
+  // Apply grey filter by default
+  filter: create-grey-filter();
+
+  // Smooth transition for hover effect
+  transition: filter 0.2s ease-in-out;
+
+  &:hover {
+    filter: none;  // Remove filter on hover to show original color
+  }
+}
+
+.fab {
+  &.custom {
+    @extend %fa-base;
+    font-family: none;
+  }
+}
+
+
+// Custom icons map with correct path
+$custom-icons: (
+        'azure': 'assets/icons/azure.png',    // Adjust path based on SCSS location
+        'gcp': 'assets/icons/gcp.png',    // Adjust path based on SCSS location
+        'golang': 'assets/icons/golang.png',
+        'kubernetes': 'assets/icons/kubernetes.png'
+  // Add more custom icons as needed
+);
+
+// Generate icon classes
+@each $name, $path in $custom-icons {
+  .fab.fa-#{$name}.custom {
+    background-image: url($path);
+  }
+}
+
+// Font Awesome sizes
+.fa-xs {
+  font-size: 0.75em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+}
+
+// Color modifiers
+.fab.custom {
+  &.grey {
+    filter: grayscale(100%);
+
+    &:hover {
+      filter: none;
+    }
+  }
+
+  &.primary {
+    filter: brightness(0) saturate(100%);
+
+    &:hover {
+      filter: opacity(0.8);
+    }
+  }
+}
+
+// Basic dimensions for visibility
+.fab.custom {
+  min-width: 24px;
+  min-height: 24px;
+}
