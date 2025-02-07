@@ -1,6 +1,6 @@
 {
-  "short_name": "DeveloperFolio",
-  "name": "DeveloperFolio",
+  "short_name": "portfolio",
+  "name": "Haseeb Portfolio",
   "icons": [
     {
       "src": "/favicon.ico",
@@ -14,7 +14,7 @@
     },
     {
       "src": "/android-chrome-384x384.png?v8=qAJ44G5Bm7",
-      "type": "image/png",
+      "type": "image/pngd",
       "sizes": "384x384"
     }
   ],
