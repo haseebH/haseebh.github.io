@@ -75,40 +75,85 @@ https://fontawesome.com/icons?d=gallery */
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "sql-database",
+      skillName: "database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
+      skillName: "AWS",
       fontAwesomeClassname: "fab fa-aws"
     },
     {
-      skillName: "azure",
+      skillName: "Azure",
       fontAwesomeClassname: "fab fa-azure custom"
     },
     {
-      skillName: "gcp",
+      skillName: "GCP",
       fontAwesomeClassname: "fab fa-gcp custom"
     },
     {
-      skillName: "docker",
+      skillName: "Digital Ocean",
+      fontAwesomeClassname: "fab fa-digitalOcean custom"
+    },
+    {
+      skillName: "Docker",
       fontAwesomeClassname: "fab fa-docker"
     },
     {
-      skillName: "kubernetes",
+      skillName: "Kubernetes",
       fontAwesomeClassname: "fab fa-kubernetes custom"
     },
 
+    {
+      skillName: "Terraform",
+      fontAwesomeClassname: "fab fa-terraform custom"
+    },
+    {
+      skillName: "Istio",
+      fontAwesomeClassname: "fab fa-istio custom"
+    },
+    {
+      skillName: "KNative",
+      fontAwesomeClassname: "fab fa-knative custom"
+    },
+    {
+      skillName: "Keycloak",
+      fontAwesomeClassname: "fab fa-keycloak custom"
+    },
+    {
+      skillName: "Git",
+      fontAwesomeClassname: "fab fa-git custom"
+    },
+    {
+      skillName: "Prometheus",
+      fontAwesomeClassname: "fab fa-prometheus custom"
+    },
+    {
+      skillName: "Grafana",
+      fontAwesomeClassname: "fab fa-grafana custom"
+    },{
+      skillName: "DataDog",
+      fontAwesomeClassname: "fab fa-datadog custom"
+    },
+    {
+      skillName: "Vault",
+      fontAwesomeClassname: "fab fa-vault custom"
+    },{
+      skillName: "Kafka",
+      fontAwesomeClassname: "fab fa-kafka custom"
+    },{
+      skillName: "Redis",
+      fontAwesomeClassname: "fab fa-redis custom"
+    },
     {
       skillName: "JavaScript",
       fontAwesomeClassname: "fab fa-js"
     },
     {
-      skillName: "reactjs",
+      skillName: "Reactjs",
       fontAwesomeClassname: "fab fa-react"
     },
     {
-      skillName: "nodejs",
+      skillName: "Nodejs",
       fontAwesomeClassname: "fab fa-node"
     },
     {
@@ -344,34 +389,107 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
-        //  you can add extra buttons here.
-      ]
+      // image: require("./assets/images/microsec_ai.jpeg"),
+      projectName: "Microsec",
+      projectDesc: "Microsec.AI offers a comprehensive CNAPP and DSPM cybersecurity solution for multi-cloud and Kubernetes environments. This unified, agentless platform integrates runtime security with data protection features to safeguard both cloud-native applications and sensitive data across distributed cloud architectures." ,
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "https://microsec.ai/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-      footerLink: [
-        {
-          name: "Visit Website",
-          url: "http://nextu.se/"
-        }
-      ]
+      // image: require("./assets/images/mind-logo.png"),
+      projectName: "MultiScale Technologies",
+      projectDesc: "MIND is an enterprise AI platform specializing in digital twin creation and management. The system simulates real-world conditions and analyzes comprehensive datasets to generate insights. This enables organizations to accelerate innovation, enhance product and process performance, and reduce time-to-market." ,
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "https://multiscale.tech/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "CloudPlex Cloud Native",
+      projectDesc: "CloudPlex delivers a low-code SaaS solution that transforms Kubernetes development through intuitive visual interfaces. The platform streamlines the development lifecycle by automating Helm chart creation while providing remote IDE capabilities, enabling efficient containerized application deployment.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "https://cloudplex.io"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Brainarator Kids",
+      projectDesc: "Brainarator Kids is an AI-powered educational platform that personalizes STEM learning for children. The solution emphasizes coding education through interactive visual programming interfaces, making complex technical concepts accessible and engaging for young learners.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Imprint",
+      projectDesc: "Imprint provides customizable credit card solutions with robust co-branding capabilities. The platform enables organizations to tailor financial products that seamlessly align with their brand identity, delivering personalized credit offerings that enhance customer engagement and brand recognition.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "https://imprint.co/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Brainarator",
+      projectDesc: "Brainarator delivers a web-based platform providing instant access to remote Linux environments for hands-on technology training. The solution offers interactive scenarios for learning cloud technologies and Docker, enabling both consumption of existing content and creation of custom training programs for self-paced developer education",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "CloudPlex CMP",
+      projectDesc: "CloudPlex CMP is an Infrastructure-as-Service platform that streamlines cloud management through visual provisioning tools and automation. The solution enables organizations to deploy private and public compute clouds with integrated networking and storage, offering infrastructure control and API integration capabilities.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
+    },
+    {
+      // image: require("./assets/images/saayaHealthLogo.webp"),
+      projectName: "Platalytics",
+      projectDesc: "Platalytics delivers a comprehensive IoT and ML development platform for building intelligent applications. The solution integrates Hadoop, Spark, and big data technologies to process real-time IoT device data streams, while providing edge computing capabilities and interactive model development functionalities.",
+      // footerLink: [
+      //   {
+      //     name: "Visit Website",
+      //     url: "http://saayahealth.com/"
+      //   }
+      //   //  you can add extra buttons here.
+      // ]
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Achievement Section
