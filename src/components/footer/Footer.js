@@ -14,11 +14,7 @@ export default function Footer() {
         </p>
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
-          <a
-            href=""
-            target="_blank"
-            rel="noreferrer"
-          >
+          <a href="" target="_blank" rel="noreferrer">
             Developer Folio
           </a>
         </p>

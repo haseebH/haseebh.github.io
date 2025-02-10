@@ -25,8 +25,7 @@ const greeting = {
   subTitle: emoji(
     "A  Passionate Backend and DevOps Engineer with expertise in building scalable microservices architecture using Golang, implementing cloud-native solutions, orchestrating containerized applications with Kubernetes, and integrating AI solutions while maintaining robust CI/CD pipelines for seamless software delivery."
   ),
-  resumeLink:
-    "", // Set to empty to hide the button
+  resumeLink: "", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -51,15 +50,31 @@ const skillsSection = {
   title: "What I do",
   subTitle: "FEARLESS CODE WARRIOR: TURNING IMPOSSIBLE INTO INEVITABLE 🔥  ",
   skills: [
-    emoji("⚡ Specialized in microservices architecture, ensuring your applications are modular, maintainable, and resilient."),
-    emoji("⚡ Eliminate system bottlenecks with efficient database design and caching strategies"),
+    emoji(
+      "⚡ Specialized in microservices architecture, ensuring your applications are modular, maintainable, and resilient."
+    ),
+    emoji(
+      "⚡ Eliminate system bottlenecks with efficient database design and caching strategies"
+    ),
     emoji("⚡ Build reliable, self-healing services that ensure 99.9% uptime"),
-    emoji("⚡ Future-proof your systems with easy-to-scale microservices and cloud-native patterns"),
-    emoji("⚡ Design and implement scalable CI/CD pipelines with advanced monitoring and observability"),
-    emoji("⚡ Scale applications seamlessly from 100 to 1M+ users with cloud-native architecture"),
-    emoji("⚡ Automate repetitive tasks and enhance decision-making with strategic AI/ML integration"),
-    emoji("⚡ Containerization and orchestration using Docker and Kubernetes for seamless deployment"),
-    emoji("⚡ Infrastructure as Code (IaC) implementation with Terraform and configuration management"),
+    emoji(
+      "⚡ Future-proof your systems with easy-to-scale microservices and cloud-native patterns"
+    ),
+    emoji(
+      "⚡ Design and implement scalable CI/CD pipelines with advanced monitoring and observability"
+    ),
+    emoji(
+      "⚡ Scale applications seamlessly from 100 to 1M+ users with cloud-native architecture"
+    ),
+    emoji(
+      "⚡ Automate repetitive tasks and enhance decision-making with strategic AI/ML integration"
+    ),
+    emoji(
+      "⚡ Containerization and orchestration using Docker and Kubernetes for seamless deployment"
+    ),
+    emoji(
+      "⚡ Infrastructure as Code (IaC) implementation with Terraform and configuration management"
+    )
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -130,17 +145,20 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Grafana",
       fontAwesomeClassname: "fab fa-grafana custom"
-    },{
+    },
+    {
       skillName: "DataDog",
       fontAwesomeClassname: "fab fa-datadog custom"
     },
     {
       skillName: "Vault",
       fontAwesomeClassname: "fab fa-vault custom"
-    },{
+    },
+    {
       skillName: "Kafka",
       fontAwesomeClassname: "fab fa-kafka custom"
-    },{
+    },
+    {
       skillName: "Redis",
       fontAwesomeClassname: "fab fa-redis custom"
     },
@@ -163,7 +181,7 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "firebase",
       fontAwesomeClassname: "fas fa-fire"
-    },
+    }
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -301,7 +319,7 @@ const techStack = {
     {
       Stack: "Compliance & Governance",
       progressPercentage: "72%"
-    },
+    }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -316,7 +334,7 @@ const workExperiences = {
       company: "Turing",
       companylogo: require("./assets/images/turingcom_logo.jpeg"),
       // date: "May 2024 – Present",
-      desc: "Led AWS infrastructure optimization through IaC implementation, enhanced monitoring with CloudWatch and Datadog, and architected secure database replication systems, resulting in 65% faster incident resolution and robust PII data protection.",
+      desc: "Led AWS infrastructure optimization through IaC implementation, enhanced monitoring with CloudWatch and Datadog, and architected secure database replication systems, resulting in 65% faster incident resolution and robust PII data protection."
       // descBullets: [
       //   "Maintained and managed AWS cloud resources to ensure high availability and performance using IaC",
       //   "Established comprehensive monitoring solutions using AWS CloudWatch and Datadog, reducing MTTR by 65% through predictive alerting and automated incident response",
@@ -348,7 +366,7 @@ const workExperiences = {
       company: "Toptal",
       companylogo: require("./assets/images/toptal.com.jpg"),
       // date: "May 2024 – Present",
-      desc: "Worked on crypto payment solution enabling retail transactions with cryptocurrency. Added polygon implementation with openzeppelin and real-time transaction processing for merchant point-of-sale systems.",
+      desc: "Worked on crypto payment solution enabling retail transactions with cryptocurrency. Added polygon implementation with openzeppelin and real-time transaction processing for merchant point-of-sale systems."
       // descBullets: [
       //   "Maintained and managed AWS cloud resources to ensure high availability and performance using IaC",
       //   "Established comprehensive monitoring solutions using AWS CloudWatch and Datadog, reducing MTTR by 65% through predictive alerting and automated incident response",
@@ -374,7 +392,7 @@ const workExperiences = {
       companylogo: require("./assets/images/platalytics.jpeg"),
       // date: "Jan 2015 – Jan 2018",
       desc: "I implemented infrastructure automation using Chef and Ansible for Hadoop/Spark clusters. Built Docker containerization for Scala backend and automated ML model deployment. Implemented IoT Features in the platform"
-    },
+    }
   ]
 };
 
@@ -395,7 +413,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/microsec_ai.jpeg"),
       projectName: "Microsec",
-      projectDesc: "Microsec.AI offers a comprehensive CNAPP and DSPM cybersecurity solution for multi-cloud and Kubernetes environments. This unified, agentless platform integrates runtime security with data protection features to safeguard both cloud-native applications and sensitive data across distributed cloud architectures." ,
+      projectDesc:
+        "Microsec.AI offers a comprehensive CNAPP and DSPM cybersecurity solution for multi-cloud and Kubernetes environments. This unified, agentless platform integrates runtime security with data protection features to safeguard both cloud-native applications and sensitive data across distributed cloud architectures."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -407,7 +426,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/mind-logo.png"),
       projectName: "MultiScale Technologies",
-      projectDesc: "MIND is an enterprise AI platform specializing in digital twin creation and management. The system simulates real-world conditions and analyzes comprehensive datasets to generate insights. This enables organizations to accelerate innovation, enhance product and process performance, and reduce time-to-market." ,
+      projectDesc:
+        "MIND is an enterprise AI platform specializing in digital twin creation and management. The system simulates real-world conditions and analyzes comprehensive datasets to generate insights. This enables organizations to accelerate innovation, enhance product and process performance, and reduce time-to-market."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -419,7 +439,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "CloudPlex Cloud Native",
-      projectDesc: "CloudPlex delivers a low-code SaaS solution that transforms Kubernetes development through intuitive visual interfaces. The platform streamlines the development lifecycle by automating Helm chart creation while providing remote IDE capabilities, enabling efficient containerized application deployment.",
+      projectDesc:
+        "CloudPlex delivers a low-code SaaS solution that transforms Kubernetes development through intuitive visual interfaces. The platform streamlines the development lifecycle by automating Helm chart creation while providing remote IDE capabilities, enabling efficient containerized application deployment."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -431,7 +452,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Brainarator Kids",
-      projectDesc: "Brainarator Kids is an AI-powered educational platform that personalizes STEM learning for children. The solution emphasizes coding education through interactive visual programming interfaces, making complex technical concepts accessible and engaging for young learners.",
+      projectDesc:
+        "Brainarator Kids is an AI-powered educational platform that personalizes STEM learning for children. The solution emphasizes coding education through interactive visual programming interfaces, making complex technical concepts accessible and engaging for young learners."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -443,7 +465,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Imprint",
-      projectDesc: "Imprint provides customizable credit card solutions with robust co-branding capabilities. The platform enables organizations to tailor financial products that seamlessly align with their brand identity, delivering personalized credit offerings that enhance customer engagement and brand recognition.",
+      projectDesc:
+        "Imprint provides customizable credit card solutions with robust co-branding capabilities. The platform enables organizations to tailor financial products that seamlessly align with their brand identity, delivering personalized credit offerings that enhance customer engagement and brand recognition."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -455,7 +478,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Brainarator",
-      projectDesc: "Brainarator delivers a web-based platform providing instant access to remote Linux environments for hands-on technology training. The solution offers interactive scenarios for learning cloud technologies and Docker, enabling both consumption of existing content and creation of custom training programs for self-paced developer education",
+      projectDesc:
+        "Brainarator delivers a web-based platform providing instant access to remote Linux environments for hands-on technology training. The solution offers interactive scenarios for learning cloud technologies and Docker, enabling both consumption of existing content and creation of custom training programs for self-paced developer education"
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -467,7 +491,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "CloudPlex CMP",
-      projectDesc: "CloudPlex CMP is an Infrastructure-as-Service platform that streamlines cloud management through visual provisioning tools and automation. The solution enables organizations to deploy private and public compute clouds with integrated networking and storage, offering infrastructure control and API integration capabilities.",
+      projectDesc:
+        "CloudPlex CMP is an Infrastructure-as-Service platform that streamlines cloud management through visual provisioning tools and automation. The solution enables organizations to deploy private and public compute clouds with integrated networking and storage, offering infrastructure control and API integration capabilities."
       // footerLink: [
       //   {
       //     name: "Visit Website",
@@ -479,7 +504,8 @@ const bigProjects = {
     {
       // image: require("./assets/images/saayaHealthLogo.webp"),
       projectName: "Platalytics",
-      projectDesc: "Platalytics delivers a comprehensive IoT and ML development platform for building intelligent applications. The solution integrates Hadoop, Spark, and big data technologies to process real-time IoT device data streams, while providing edge computing capabilities and interactive model development functionalities.",
+      projectDesc:
+        "Platalytics delivers a comprehensive IoT and ML development platform for building intelligent applications. The solution integrates Hadoop, Spark, and big data technologies to process real-time IoT device data streams, while providing edge computing capabilities and interactive model development functionalities."
       // footerLink: [
       //   {
       //     name: "Visit Website",

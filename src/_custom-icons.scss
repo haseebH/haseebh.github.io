@@ -1,12 +1,12 @@
 // _custom-icons.scss
 
 // Global color variables - adjust these to match your theme
-$icon-color: #868e96;  // Default grey
-$icon-hover-color: #8c43ce;  // Using CSS variable for global theme color
+$icon-color: #868e96; // Default grey
+$icon-hover-color: #8c43ce; // Using CSS variable for global theme color
 
 // Function to create filter for grey color
 @function create-grey-filter() {
-  @return grayscale(97%);  // Simplified grey filter
+  @return grayscale(97%); // Simplified grey filter
 }
 
 // Base icon class
@@ -26,7 +26,7 @@ $icon-hover-color: #8c43ce;  // Using CSS variable for global theme color
   transition: filter 0.2s ease-in-out;
 
   &:hover {
-    filter: none;  // Remove filter on hover to show original color
+    filter: none; // Remove filter on hover to show original color
   }
 }
 
@@ -37,34 +37,33 @@ $icon-hover-color: #8c43ce;  // Using CSS variable for global theme color
   }
 }
 
-
 // Custom icons map with correct path
 $custom-icons: (
-        'azure': 'assets/icons/azure.png',    // Adjust path based on SCSS location
-        'gcp': 'assets/icons/gcp.png',    // Adjust path based on SCSS location
-        'golang': 'assets/icons/golang.png',
-        'python': 'assets/icons/python.png',
-        'kubernetes': 'assets/icons/kubernetes.png',
-        'digitalOcean': 'assets/icons/do.png',
-        'kafka': 'assets/icons/kafka.png',
-        'es': 'assets/icons/es.png',
-        'git': 'assets/icons/Git.png',
-        'gitlab': 'assets/icons/GitLab.png',
-        'grafana': 'assets/icons/Grafana.png',
-        'istio': 'assets/icons/istio.png',
-        'jira': 'assets/icons/Jira.png',
-        'keycloak': 'assets/icons/keycloak.png',
-        'knative': 'assets/icons/knative.png',
-        'logstash': 'assets/icons/Logstash.png',
-        'mongodb': 'assets/icons/MongoDB.png',
-        'prometheus': 'assets/icons/Prometheus.png',
-        'rabbitmq': 'assets/icons/RabbitMQ.png',
-        'redis': 'assets/icons/Redis.png',
-        'terraform': 'assets/icons/terraform.png',
-        'vault': 'assets/icons/vault.svg',
-        'datadog': 'assets/icons/dd.png'
-
-  // Add more custom icons as needed
+  "azure": "assets/icons/azure.png",
+  // Adjust path based on SCSS location
+  "gcp": "assets/icons/gcp.png",
+  // Adjust path based on SCSS location
+  "golang": "assets/icons/golang.png",
+  "python": "assets/icons/python.png",
+  "kubernetes": "assets/icons/kubernetes.png",
+  "digitalOcean": "assets/icons/do.png",
+  "kafka": "assets/icons/kafka.png",
+  "es": "assets/icons/es.png",
+  "git": "assets/icons/Git.png",
+  "gitlab": "assets/icons/GitLab.png",
+  "grafana": "assets/icons/Grafana.png",
+  "istio": "assets/icons/istio.png",
+  "jira": "assets/icons/Jira.png",
+  "keycloak": "assets/icons/keycloak.png",
+  "knative": "assets/icons/knative.png",
+  "logstash": "assets/icons/Logstash.png",
+  "mongodb": "assets/icons/MongoDB.png",
+  "prometheus": "assets/icons/Prometheus.png",
+  "rabbitmq": "assets/icons/RabbitMQ.png",
+  "redis": "assets/icons/Redis.png",
+  "terraform": "assets/icons/terraform.png",
+  "vault": "assets/icons/vault.svg",
+  "datadog": "assets/icons/dd.png" // Add more custom icons as needed
 );
 
 // Generate icon classes
